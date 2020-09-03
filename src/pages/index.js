@@ -5,7 +5,6 @@ import Bio from "../components/Bio"
 const IndexPage = () => (
   <Layout>
     <Hero />
-    <Bio />
   </Layout>
 )
 

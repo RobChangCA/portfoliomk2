@@ -55,15 +55,11 @@ const TextBox = styled("div")`
   padding-left: 200px;
   h1 {
     font-weight: 900;
-    font-weight: 100;
-    font-size: 2.5rem;
-    margin: 0;
+    font-weight: 500;
+    font-size: 4rem;
+    margin-top: 40px;
+    opacity: 0.5;
 
-    strong {
-      color: rgba(255, 255, 255, 0.6);
-      font-size: 3.5rem;
-      font-weight: 900;
-    }
     @media (${MEDIA.TABLET}) {
       position: absolute;
       top: 150px;
@@ -81,6 +77,7 @@ const TextBox = styled("div")`
     font-weight: 100;
     font-size: 1.5rem;
     padding-left: 4rem;
+    opacity: 0.3;
   }
   div {
     @media (${MEDIA.TABLET}) {
@@ -127,14 +124,8 @@ const Hero = () => {
         <Shader />
         <TextBox>
           <h1>
-            hey, <br /> it's me <strong>rob chang</strong>
+            <strong>rob chang</strong>
           </h1>
-          <div>
-            <h2>a toronto based dj turned dev</h2>
-            <h2>i code and mix records</h2>
-          </div>
-
-          <StyledShyguise fluid={data.shyguise.childImageSharp.fluid} />
         </TextBox>
       </StyledBackground>
     </>

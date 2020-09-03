@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const StyledSection = styled("section")`
   height: 100vh;
-  background: white;
+  background: black;
 `
 const Bio = () => <StyledSection />
 export default Bio
